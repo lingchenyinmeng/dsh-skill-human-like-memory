@@ -29,6 +29,7 @@ description: 查铃光（AstrBot 机器人）的记忆库和人格库。用户�
 | 想干什么 | 命令 |
 |---|---|
 | 数据概况 | `python <S>\query.py --stats` |
+| 一键体检（只读，出待办） | `python <S>\doctor.py` |
 | 搜记忆 | `python <S>\query.py --memory "唱歌"` |
 | 看某人的底色 | `python <S>\query.py --person "噩壤"` |
 | 看人格全文 | `python <S>\query.py --personality` |

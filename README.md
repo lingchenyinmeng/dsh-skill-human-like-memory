@@ -63,6 +63,7 @@ notepad config.json
 ```bash
 S=~/.dsh/skills/human-like-memory/scripts
 
+python $S/doctor.py                     # 一键体检（只读，出待办清单）
 python $S/query.py --stats              # 数据概况
 python $S/query.py --memory "关键词"     # 搜记忆
 python $S/query.py --person "某人"       # 某人的标签+关系+底色
